@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  font-family: 'Roboto';
+}
+body #container {
+  padding: 20px;
+}
+body #container .card {
+  box-shadow: 0px 4px 24px rgba(184, 197, 211, 0.47);
+  display: flex;
+  margin: auto;
+  border-radius: 12px;
+  height: 413px;
+  width: 367px;
+  flex-direction: column;
+}
+body #container .card .card-image {
+  background-image: url(../images/coverImage.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 179px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  display: flex;
+  justify-content: space-between;
+  padding: 12px;
+}
+body #container .card .card-image .avatar img {
+  border-radius: 50%;
+  width: 52px;
+  height: 52px;
+}
+body #container .card .card-image .views-info {
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+}
+body #container .card .card-info {
+  background: #FFFFFF;
+  border: 1px solid #EAEDF0;
+  box-sizing: border-box;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+body #container .card .card-info > div {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+body #container .card .card-info > div p {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+}
+body #container .card .card-info h2 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  color: #212121;
+}
+body #container .card .card-info .progress-container p {
+  color: #9C9C9C;
+}
+body #container .card .card-info .progress-container p > span {
+  color: #4CE77B;
+}
+body #container .card .card-info .progress-container .progress-line {
+  background: #F0F0F0;
+  border-radius: 100px;
+  height: 12px;
+  width: 100%;
+}
+body #container .card .card-info .progress-container .progress-line .sixty-four {
+  width: 64%;
+  height: 100%;
+  border-radius: 100px;
+  background: linear-gradient(90deg, #4CE77B 0%, #73F49A 100%);
+}
+body #container .card .card-info .buttons-container {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+body #container .card .card-info .buttons-container .right-side-buttons-container img {
+  padding-left: 16px;
+}
